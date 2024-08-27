@@ -1,0 +1,115 @@
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 20px;
+    }
+
+    .cup {
+        margin-top: 100px;
+    }
+
+    .cp {
+        margin-top: 20px;
+    }
+
+    .pt {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .big1, .big2 {
+        margin-left: -100px;
+    }
+
+    .med {
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+
+    .sm {
+        margin-left: -150px;
+        margin-top: -20px;
+    }
+
+    .t1, .t3 {
+        margin-left: -100px;
+        margin-top: -80px;
+    }
+
+    .t0 {
+        margin-left: 200px;
+        margin-top: -150px;
+    }
+
+    .cone {
+        font-size: 35px;
+        margin-left: -700px;
+    }
+
+    .celebration-img {
+        max-width: 180px;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        letter-spacing: 0.2em;
+    }
+
+    .cup {
+        margin-top: 80px;
+    }
+
+    .cp {
+        margin-top: 10px;
+    }
+
+    .pt {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .big1, .big2 {
+        margin-left: 0;
+        margin-top: -100px;
+    }
+
+    .med {
+        margin-left: 0;
+        margin-top: -50px;
+    }
+
+    .sm {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .t1, .t3 {
+        margin-left: 0;
+        margin-top: -60px;
+    }
+
+    .t0 {
+        margin-left: 0;
+        margin-top: -100px;
+    }
+
+    .cone {
+        font-size: 30px;
+        margin-left: -400px;
+    }
+
+    .celebration-img {
+        max-width: 150px;
+    }
+
+    button {
+        width: 120px;
+        height: 40px;
+    }
+}

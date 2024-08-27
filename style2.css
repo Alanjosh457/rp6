@@ -1,0 +1,228 @@
+/* Base styles for larger screens (default) */
+body {
+    background-color: #89C15E;
+}
+
+.p2, .p1, .p3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.hb {
+    background-color: #89C15E;
+    border: solid 3px white;
+    height: 25vh;
+    width: 1000px;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+.hds {
+    margin-top: -170px;
+    margin-left: 250px;
+}
+
+/* Other existing styles */
+
+/* Media query for devices with a width of 1200px or less */
+@media (max-width: 1200px) {
+    .hb {
+        width: 80%;
+        margin-left: 10%;
+        height: 20vh;
+    }
+
+    .hds {
+        margin-left: 20px;
+        margin-top: -150px;
+    }
+
+    .sb1, .sb2 {
+        width: 150px;
+        height: 15vh;
+        margin-left: 10px;
+    }
+
+    .sb3 {
+        margin-left: 70%;
+    }
+
+    .sn {
+        margin-top: -550px;
+        margin-left: 80%;
+    }
+
+    .your, .score1, .score2, .computer {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .display {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    #playerDisplay, #computerDisplay {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .yp, .pc {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #resultDisplay {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .ag {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .halo1, .halo2, .halo3, .halo4, .halo5, .halo6 {
+        margin-left: 25%;
+        width: 300px;
+        height: 40vh;
+    }
+
+    .halox, .haloy {
+        margin-left: 10px;
+    }
+
+    #pa {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .gr {
+        margin-left: 85%;
+    }
+
+    .gar {
+        margin-left: 0;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .rules, .rb {
+        margin-left: 70%;
+        width: 80%;
+        height: auto;
+    }
+
+    #rul {
+        width: 120px;
+        margin-left: 60%;
+    }
+
+    #nextButton {
+        margin-left: 60%;
+        width: 120px;
+    }
+}
+
+/* Media query for devices with a width of 768px or less (tablets and small screens) */
+@media (max-width: 768px) {
+    .hb, .sb1, .sb2, .sb3, .sn, .display, .yp, .pc, .ag, .halo1, .halo2, .halo3, .halo4, .halo5, .halo6, .halox, .haloy, #pa, .gr, .gar, .rules, .rb, #rul, #nextButton {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .hb {
+        height: 20vh;
+    }
+
+    .sb1, .sb2 {
+        height: 10vh;
+    }
+
+    .sn {
+        margin-top: -400px;
+    }
+
+    .your, .score1, .score2, .computer {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .display {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    #playerDisplay, #computerDisplay {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .yp, .pc {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #resultDisplay {
+        font-size: 25px;
+    }
+
+    .ag {
+        margin-top: 100px;
+    }
+
+    #rul, #nextButton {
+        font-size: 20px;
+        height: 6vh;
+    }
+
+    .gar {
+        font-size: 20px;
+    }
+}
+
+/* Media query for devices with a width of 480px or less (mobile screens) */
+@media (max-width: 480px) {
+    .p2, .p1, .p3 {
+        font-size: 30px;
+    }
+
+    .hb {
+        height: 15vh;
+        width: 90%;
+    }
+
+    .sb1, .sb2 {
+        height: 8vh;
+    }
+
+    .display {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .yp, .pc {
+        font-size: 15px;
+    }
+
+    #resultDisplay {
+        font-size: 20px;
+    }
+
+    .ag {
+        font-size: 20px;
+    }
+
+    #rul, #nextButton {
+        width: 100px;
+        height: 5vh;
+        font-size: 15px;
+    }
+}

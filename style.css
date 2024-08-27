@@ -1,0 +1,114 @@
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #89C15E;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hb {
+        width: 90%;
+        margin: 20px auto;
+        height: 20vh;
+    }
+
+    .hds {
+        margin-left: 5%;
+        margin-top: -150px;
+        text-align: center;
+    }
+
+    .p1, .p2, .p3 {
+        font-size: 24px;
+    }
+
+    .sb3 {
+        margin-top: -100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .sb1, .sb2 {
+        width: 100px;
+        height: 10vh;
+        margin-left: 0;
+    }
+
+    .scoreDisplay1, .scoreDisplay2 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .sn {
+        margin-top: -400px;
+        margin-left: 5%;
+        width: 90%;
+        text-align: center;
+    }
+
+    #fist, #hand, #scissor {
+        width: 100px;
+        height: 15vh;
+        margin: 10px auto;
+        border-width: 10px;
+        box-shadow: none;
+    }
+
+    .hand2 {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .line1, .line2, .line3, .line5 {
+        width: 200px;
+        height: 2vh;
+        background-color: #2f2c2c;
+        margin: 20px auto;
+    }
+
+    #rul {
+        width: 120px;
+        height: 6vh;
+        font-size: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        bottom: 30px;
+    }
+
+    .rb {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .rules {
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    .rule1, .rule2, .rule3, .rule4 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .bln {
+        margin-top: 10px;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .yel1, .yel2, .yel3, .yel4 {
+        width: 5px;
+        height: 1vh;
+        padding: 0;
+    }
+}
